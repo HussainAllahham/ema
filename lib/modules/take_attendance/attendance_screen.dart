@@ -62,7 +62,9 @@ class AttendanceScreen extends StatelessWidget {
                   MaterialButton(
                     onPressed: () async {
                       var image = await ImagePicker()
-                          .pickImage(source: ImageSource.camera);
+                          .pickImage(source: ImageSource.camera)
+                          .then((value) {})
+                          .catchError(() {});
                     },
                     height: 42,
                     minWidth: 175,

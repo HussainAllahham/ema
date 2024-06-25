@@ -20,7 +20,7 @@ List<BoardingModel> boarding = [
   ),
   BoardingModel(
     title: 'Welcome to the (EAMS)',
-    body: 'Your Comprehensive Solution for Workforce Optimization!',
+    body: 'Transform Your HR Operations: Efficient, Effective, Effortless!',
   ),
   BoardingModel(
     title: '',

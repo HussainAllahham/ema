@@ -1,6 +1,7 @@
 import 'dart:convert';
-import 'package:graduation_project/data/Models/get_attendance_model.dart';
-import 'package:graduation_project/data/Models/get_users_data_module.dart';
+
+import 'package:emas/data/Models/get_attendance_model.dart';
+import 'package:emas/data/Models/get_users_data_module.dart';
 import 'package:http/http.dart' as http;
 
 List<GetAttendanceModel> attendance = [];

@@ -1,11 +1,10 @@
+import 'package:emas/Screen/employeer%20screens/Take_attendance.dart';
+import 'package:emas/Screen/employeer%20screens/ask_screen.dart';
+import 'package:emas/Screen/employeer%20screens/information_screen.dart';
+import 'package:emas/Screen/employeer%20screens/salary_screen.dart';
+import 'package:emas/functions/drawer.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
-import 'package:graduation_project/Screen/employeer%20screens/Take_attendance.dart';
-import 'package:graduation_project/Screen/employeer%20screens/ask_screen.dart';
-// import 'package:graduation_project/Screen/employeer%20screens/attendance_screen.dart';
-import 'package:graduation_project/Screen/employeer%20screens/information_screen.dart';
-import 'package:graduation_project/Screen/employeer%20screens/salary_screen.dart';
-import 'package:graduation_project/functions/drawer.dart';
-import 'package:graduation_project/functions/style.dart';
 
 // ignore: must_be_immutable
 class EmployeeScreen extends StatelessWidget {

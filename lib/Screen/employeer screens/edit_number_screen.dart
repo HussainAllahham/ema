@@ -1,10 +1,11 @@
+import 'package:emas/Cubits/edit_number/edit_number_cubit.dart';
+import 'package:emas/Cubits/edit_number/edit_number_state.dart';
+import 'package:emas/Screen/employeer%20screens/components.dart';
+import 'package:emas/Screen/employeer%20screens/employee.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/edit_number/edit_number_cubit.dart';
-import 'package:graduation_project/Cubits/edit_number/edit_number_state.dart';
-import 'package:graduation_project/Screen/employeer%20screens/components.dart';
-import 'package:graduation_project/Screen/employeer%20screens/employee.dart';
-import 'package:graduation_project/functions/style.dart';
+
 import 'package:hexcolor/hexcolor.dart';
 
 var numberController = TextEditingController();

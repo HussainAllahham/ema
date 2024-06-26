@@ -1,9 +1,10 @@
+import 'package:emas/Screen/Login_Screen.dart';
+import 'package:emas/Screen/Splash_Screen.dart';
+import 'package:emas/Screen/setting.dart';
+import 'package:emas/data/Repository/get_companies_name_repo.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
-import 'package:graduation_project/Screen/Login_Screen.dart';
-import 'package:graduation_project/Screen/Splash_Screen.dart';
-import 'package:graduation_project/Screen/setting.dart';
-import 'package:graduation_project/data/Repository/get_companies_name_repo.dart';
-import 'package:graduation_project/functions/style.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 class myDrawer extends StatelessWidget {

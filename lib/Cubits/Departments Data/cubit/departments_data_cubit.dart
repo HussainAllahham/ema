@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
+import 'package:emas/data/Repository/get_departments_repo.dart';
 import 'package:flutter/foundation.dart';
-import 'package:graduation_project/data/Repository/get_departments_repo.dart';
 
 part 'departments_data_state.dart';
 

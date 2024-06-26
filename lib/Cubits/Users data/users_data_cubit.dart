@@ -1,5 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:graduation_project/data/Repository/get_users_Repo.dart';
+import 'package:emas/data/Repository/get_users_Repo.dart';
+
 import 'package:meta/meta.dart';
 
 part 'users_data_state.dart';
@@ -35,5 +36,4 @@ class UsersDataCubit extends Cubit<UsersDataState> {
   void uploadedImage() {
     emit(SalaryTypeButton());
   }
-  
 }

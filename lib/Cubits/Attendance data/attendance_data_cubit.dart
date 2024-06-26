@@ -1,5 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:graduation_project/data/Repository/get_attendance_repo.dart';
+import 'package:emas/data/Repository/get_attendance_repo.dart';
+
 import 'package:meta/meta.dart';
 
 part 'attendance_data_state.dart';

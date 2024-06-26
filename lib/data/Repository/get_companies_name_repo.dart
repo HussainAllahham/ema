@@ -1,5 +1,6 @@
 import 'dart:convert';
-import 'package:graduation_project/data/Models/get_companies_name_model.dart';
+
+import 'package:emas/data/Models/get_companies_name_model.dart';
 import 'package:http/http.dart' as http;
 
 List<GetCompaniesNameModel> companies_name = [];

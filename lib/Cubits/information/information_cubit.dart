@@ -1,9 +1,9 @@
+import 'package:emas/Cubits/information/information_states.dart';
+import 'package:emas/data/Models/get_departments_model.dart';
+import 'package:emas/data/Models/get_shifts_model.dart';
+import 'package:emas/data/Models/information_model.dart';
+import 'package:emas/data/Repository/dio_helper.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/information/information_states.dart';
-import 'package:graduation_project/data/Models/get_departments_model.dart';
-import 'package:graduation_project/data/Models/get_shifts_model.dart';
-import 'package:graduation_project/data/Models/information_model.dart';
-import 'package:graduation_project/data/Repository/dio_helper.dart';
 
 class InformationCubit extends Cubit<InformationStates> {
   InformationCubit() : super(InatialInforamtionState());

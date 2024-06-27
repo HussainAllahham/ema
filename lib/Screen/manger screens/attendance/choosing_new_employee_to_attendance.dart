@@ -1,17 +1,16 @@
 // ignore_for_file: invalid_use_of_visible_for_testing_member
 
+import 'package:emas/Cubits/Search/search_cubit.dart';
+import 'package:emas/Cubits/Users%20data/users_data_cubit.dart';
+import 'package:emas/Cubits/attendance%20new%20data/attendance_new_data_cubit.dart';
+import 'package:emas/Screen/manger%20screens/attendance/adding_new_attendance.dart';
+import 'package:emas/data/Repository/get_attendance_new_repo.dart';
+import 'package:emas/data/Repository/get_users_Repo.dart';
+import 'package:emas/functions/drawer.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/Search/search_cubit.dart';
-import 'package:graduation_project/Cubits/Users%20data/users_data_cubit.dart';
-import 'package:graduation_project/Cubits/attendance%20new%20data/attendance_new_data_cubit.dart';
-import 'package:graduation_project/Screen/manger%20screens/attendance/adding_new_attendance.dart';
-// import 'package:graduation_project/Screen/attendance/adding_attendance.dart';
-import 'package:graduation_project/data/Repository/get_attendance_new_repo.dart';
-// import 'package:graduation_project/data/Repository/get_attendance_repo.dart';
-import 'package:graduation_project/data/Repository/get_users_Repo.dart';
-import 'package:graduation_project/functions/drawer.dart';
-import 'package:graduation_project/functions/style.dart';
+
 import 'package:responsive_framework/responsive_value.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 

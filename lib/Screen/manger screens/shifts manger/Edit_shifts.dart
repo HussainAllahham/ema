@@ -1,9 +1,10 @@
+import 'package:emas/Cubits/Shifts%20data/shifts_data_cubit.dart';
+import 'package:emas/Cubits/Show_field_requirments/field_requirments_cubit.dart';
+import 'package:emas/data/Repository/get_shifts_repo.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/Shifts%20data/shifts_data_cubit.dart';
-import 'package:graduation_project/Cubits/Show_field_requirments/field_requirments_cubit.dart';
-import 'package:graduation_project/data/Repository/get_shifts_repo.dart';
-import 'package:graduation_project/functions/style.dart';
+
 import 'package:responsive_framework/responsive_row_column.dart';
 
 // ignore: must_be_immutable

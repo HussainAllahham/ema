@@ -1,6 +1,6 @@
+import 'package:emas/Screen/employeer%20screens/employee.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
-import 'package:graduation_project/Screen/employeer%20screens/employee.dart';
-import 'package:graduation_project/functions/style.dart';
 
 class SalaryScreen extends StatelessWidget {
   const SalaryScreen({super.key});

@@ -1,20 +1,18 @@
 // ignore_for_file: invalid_use_of_protected_member
 
+import 'package:emas/Cubits/Search/search_cubit.dart';
+import 'package:emas/Cubits/Shifts%20data/shifts_data_cubit.dart';
+import 'package:emas/Cubits/Users%20data/users_data_cubit.dart';
+import 'package:emas/Screen/manger%20screens/department_shift_employees.dart';
+import 'package:emas/Screen/manger%20screens/shifts%20manger/Edit_shifts.dart';
+import 'package:emas/Screen/manger%20screens/shifts%20manger/adding_new_shift.dart';
+import 'package:emas/data/Repository/get_shifts_repo.dart';
+import 'package:emas/data/Repository/get_users_Repo.dart';
+import 'package:emas/functions/drawer.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/Search/search_cubit.dart';
-import 'package:graduation_project/Cubits/Shifts%20data/shifts_data_cubit.dart';
-import 'package:graduation_project/Cubits/Users%20data/users_data_cubit.dart';
-import 'package:graduation_project/Screen/manger%20screens/department_shift_employees.dart';
-// import 'package:graduation_project/Screen/departments%20manger/Edit_departments.dart';
-// import 'package:graduation_project/Screen/department,shift_employees.dart';
-// import 'package:graduation_project/Screen/employee%20manger/Employee_list.dart';
-import 'package:graduation_project/Screen/manger%20screens/shifts%20manger/Edit_shifts.dart';
-import 'package:graduation_project/Screen/manger%20screens/shifts%20manger/adding_new_shift.dart';
-import 'package:graduation_project/data/Repository/get_shifts_repo.dart';
-import 'package:graduation_project/data/Repository/get_users_Repo.dart';
-import 'package:graduation_project/functions/drawer.dart';
-import 'package:graduation_project/functions/style.dart';
+
 // import 'package:shared_preferences/shared_preferences.dart';
 
 // ignore: must_be_immutable

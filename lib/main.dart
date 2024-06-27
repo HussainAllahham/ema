@@ -17,6 +17,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:hexcolor/hexcolor.dart';
+import 'package:responsive_framework/responsive_wrapper.dart';
+import 'package:responsive_framework/utils/scroll_behavior.dart';
 // import 'package:graduation_project/Screen/test.dart';
 // import 'package:graduation_project/test2.dart';
 

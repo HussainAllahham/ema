@@ -1,11 +1,9 @@
 // ignore_for_file: must_be_immutable
 
+import 'package:emas/Screen/Splash_Screen.dart';
+import 'package:emas/functions/drawer.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
-import 'package:graduation_project/Screen/Splash_Screen.dart';
-// import 'package:graduation_project/Screen/Take_attendance.dart';
-// import 'package:graduation_project/Screen/test.dart';
-import 'package:graduation_project/functions/drawer.dart';
-import 'package:graduation_project/functions/style.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
@@ -23,7 +21,6 @@ class HomeScreen extends StatelessWidget {
     Icons.attach_money_outlined,
     Icons.festival_outlined,
   ];
-  
 
   // List navigators = [TakeAttendance(), Test(), Test(), Test()];
 

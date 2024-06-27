@@ -1,20 +1,18 @@
 // ignore_for_file: use_build_context_synchronously, non_constant_identifier_names, prefer_typing_uninitialized_variables, must_be_immutable
 
+import 'package:emas/Cubits/Circular_indicator_cubit/circular_indicator_cubit.dart';
+import 'package:emas/Cubits/Companies%20name/companies_name_cubit.dart';
+import 'package:emas/Cubits/Show%20password/show_password_cubit.dart';
+import 'package:emas/Cubits/Show_field_requirments/field_requirments_cubit.dart';
+import 'package:emas/Screen/Login_Screen.dart';
+import 'package:emas/Screen/Splash_Screen.dart';
+import 'package:emas/Screen/manger%20screens/Home_Screen_manger.dart';
+import 'package:emas/data/Repository/get_companies_name_repo.dart';
+import 'package:emas/functions/location.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/Circular_indicator_cubit/circular_indicator_cubit.dart';
-import 'package:graduation_project/Cubits/Companies%20name/companies_name_cubit.dart';
-import 'package:graduation_project/Cubits/Show%20password/show_password_cubit.dart';
-import 'package:graduation_project/Cubits/Show_field_requirments/field_requirments_cubit.dart';
-import 'package:graduation_project/Screen/manger%20screens/Home_Screen_manger.dart';
-import 'package:graduation_project/Screen/Login_Screen.dart';
-// import 'package:graduation_project/Screen/Home_Screen_manger.dart';
-// import 'package:graduation_project/Screen/Login_Screen.dart';
-import 'package:graduation_project/Screen/Splash_Screen.dart';
-import 'package:graduation_project/data/Repository/get_companies_name_repo.dart';
-// import 'package:graduation_project/data/Repository/get_companies_name_repo.dart';
-import 'package:graduation_project/functions/location.dart';
-import 'package:graduation_project/functions/style.dart';
+
 import 'package:responsive_framework/responsive_row_column.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

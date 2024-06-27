@@ -1,11 +1,12 @@
+import 'package:emas/Cubits/information/information_cubit.dart';
+import 'package:emas/Cubits/information/information_states.dart';
+import 'package:emas/Screen/Splash_Screen.dart';
+import 'package:emas/Screen/employeer%20screens/edit_number_screen.dart';
+import 'package:emas/Screen/employeer%20screens/employee.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/information/information_cubit.dart';
-import 'package:graduation_project/Cubits/information/information_states.dart';
-import 'package:graduation_project/Screen/Splash_Screen.dart';
-import 'package:graduation_project/Screen/employeer%20screens/edit_number_screen.dart';
-import 'package:graduation_project/Screen/employeer%20screens/employee.dart';
-import 'package:graduation_project/functions/style.dart';
+
 import 'package:hexcolor/hexcolor.dart';
 
 class InformationScreen extends StatelessWidget {

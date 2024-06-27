@@ -1,65 +1,19 @@
-// import 'package:flutter/material.dart';
-// import 'package:flutter_bloc/flutter_bloc.dart';
-// import 'package:graduation_project/Cubits/Search/search_cubit.dart';
-// import 'package:graduation_project/functions/style.dart';
-
-// class Setting extends StatelessWidget {
-//   Setting({super.key});
-
-//   @override
-//   Widget(BuildContext context) {
-//     final mediaQuery = MediaQuery.of(context);
-//     final landscape = mediaQuery.orientation == Orientation.landscape;
-//     return SafeArea(
-//         child: Scaffold(
-//       appBar: AppBar(
-//         toolbarHeight: (landscape)
-//             ? mediaQuery.size.height * (100 / 800)
-//             : mediaQuery.size.height * (70 / 800),
-//         backgroundColor: const Color.fromRGBO(56, 149, 164, 1),
-//         leading: Builder(builder: (context) {
-//           return IconButton(
-//             color: Colors.white,
-//             onPressed: () async {
-//               context.read<SearchCubit>().close_search();
-//               Navigator.pop(
-//                 context,
-//               );
-//             },
-//             icon: Icon(Icons.arrow_back),
-//           );
-//         }),
-//         automaticallyImplyLeading: false,
-//         title: BlocBuilder<SearchCubit, SearchState>(
-//           builder: (context, state) {
-//             return FittedBox(
-//                 child: Text(
-//               "Employees List",
-//               style: (landscape)
-//                   ? getTextWhiteHeader(context)
-//                   : getTextWhite(context),
-//             ));
-//           },
-//         ),
-//         centerTitle: true,
-//       ),
-//       body: Container(),
-//     ));
-//   }
-// }
-
 import 'package:emas/Cubits/Circular_indicator_cubit/circular_indicator_cubit.dart';
+import 'package:emas/Cubits/Companies%20name/companies_name_cubit.dart';
 import 'package:emas/Cubits/Search/search_cubit.dart';
 import 'package:emas/Cubits/Show%20password/show_password_cubit.dart';
 import 'package:emas/Cubits/Show_field_requirments/field_requirments_cubit.dart';
+import 'package:emas/Cubits/Users%20data/users_data_cubit.dart';
 import 'package:emas/Screen/Splash_Screen.dart';
-import 'package:emas/Screen/employeer%20screens/Home_Screen_employee.dart';
+
+import 'package:emas/Screen/employeer%20screens/employee.dart';
 import 'package:emas/Screen/manger%20screens/Home_Screen_manger.dart';
 import 'package:emas/data/Repository/get_companies_name_repo.dart';
 import 'package:emas/data/Repository/get_users_Repo.dart';
 import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:responsive_framework/responsive_row_column.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // ignore: must_be_immutable
@@ -784,7 +738,7 @@ class Setting extends StatelessWidget {
                                                 MaterialPageRoute<void>(
                                                   builder:
                                                       (BuildContext context) =>
-                                                          HomeScreen(),
+                                                          EmployeeScreen(),
                                                 ),
                                               );
                                             }

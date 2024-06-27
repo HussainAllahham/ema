@@ -1,17 +1,17 @@
 // ignore_for_file: must_be_immutable
 
+import 'package:emas/Cubits/Departments%20Data/cubit/departments_data_cubit.dart';
+import 'package:emas/Cubits/Shifts%20data/shifts_data_cubit.dart';
+import 'package:emas/Cubits/Users%20data/users_data_cubit.dart';
+import 'package:emas/Screen/manger%20screens/attendance/attendance.dart';
+import 'package:emas/Screen/manger%20screens/departments%20manger/Departments_list.dart';
+import 'package:emas/Screen/manger%20screens/employee%20manger/Employee_list.dart';
+import 'package:emas/Screen/manger%20screens/shifts%20manger/Shifts_list.dart';
+import 'package:emas/data/Repository/get_users_Repo.dart';
+import 'package:emas/functions/drawer.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/Departments%20Data/cubit/departments_data_cubit.dart';
-import 'package:graduation_project/Cubits/Shifts%20data/shifts_data_cubit.dart';
-import 'package:graduation_project/Cubits/Users%20data/users_data_cubit.dart';
-import 'package:graduation_project/Screen/manger%20screens/attendance/attendance.dart';
-import 'package:graduation_project/Screen/manger%20screens/departments%20manger/Departments_list.dart';
-import 'package:graduation_project/Screen/manger%20screens/employee%20manger/Employee_list.dart';
-import 'package:graduation_project/Screen/manger%20screens/shifts%20manger/Shifts_list.dart';
-import 'package:graduation_project/data/Repository/get_users_Repo.dart';
-import 'package:graduation_project/functions/drawer.dart';
-import 'package:graduation_project/functions/style.dart';
 
 class HomeScreenManger extends StatelessWidget {
   HomeScreenManger();

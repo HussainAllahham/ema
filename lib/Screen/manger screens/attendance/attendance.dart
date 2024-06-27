@@ -2,18 +2,17 @@
 
 // import 'dart:math';
 
+import 'package:emas/Cubits/Attendance%20data/attendance_data_cubit.dart';
+import 'package:emas/Cubits/Search/search_cubit.dart';
+import 'package:emas/Cubits/attendance%20new%20data/attendance_new_data_cubit.dart';
+import 'package:emas/Screen/manger%20screens/attendance/attendance_list2.dart';
+import 'package:emas/data/Repository/get_attendance_new_repo.dart';
+import 'package:emas/data/Repository/get_attendance_repo.dart';
+import 'package:emas/data/Repository/get_users_Repo.dart';
+import 'package:emas/functions/drawer.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/Attendance%20data/attendance_data_cubit.dart';
-import 'package:graduation_project/Cubits/Search/search_cubit.dart';
-import 'package:graduation_project/Cubits/attendance%20new%20data/attendance_new_data_cubit.dart';
-// import 'package:graduation_project/Screen/attendance/attendance_list.dart';
-import 'package:graduation_project/Screen/manger%20screens/attendance/attendance_list2.dart';
-import 'package:graduation_project/data/Repository/get_attendance_new_repo.dart';
-import 'package:graduation_project/data/Repository/get_attendance_repo.dart';
-import 'package:graduation_project/data/Repository/get_users_Repo.dart';
-import 'package:graduation_project/functions/drawer.dart';
-import 'package:graduation_project/functions/style.dart';
 
 // ignore: must_be_immutable
 class Attendance extends StatelessWidget {

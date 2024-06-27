@@ -1,18 +1,19 @@
 // ignore_for_file: invalid_use_of_visible_for_testing_member
 
+import 'package:emas/Cubits/Departments%20Data/cubit/departments_data_cubit.dart';
+import 'package:emas/Cubits/Search/search_cubit.dart';
+import 'package:emas/Cubits/Shifts%20data/shifts_data_cubit.dart';
+import 'package:emas/Cubits/Users%20data/users_data_cubit.dart';
+import 'package:emas/Screen/manger%20screens/employee%20manger/Edit_Users.dart';
+import 'package:emas/Screen/manger%20screens/employee%20manger/adding_new_employee.dart';
+import 'package:emas/data/Repository/get_departments_repo.dart';
+import 'package:emas/data/Repository/get_shifts_repo.dart';
+import 'package:emas/data/Repository/get_users_Repo.dart';
+import 'package:emas/functions/drawer.dart';
+import 'package:emas/functions/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:graduation_project/Cubits/Departments%20Data/cubit/departments_data_cubit.dart';
-import 'package:graduation_project/Cubits/Search/search_cubit.dart';
-import 'package:graduation_project/Cubits/Shifts%20data/shifts_data_cubit.dart';
-import 'package:graduation_project/Cubits/Users%20data/users_data_cubit.dart';
-import 'package:graduation_project/Screen/manger%20screens/employee%20manger/Edit_Users.dart';
-import 'package:graduation_project/Screen/manger%20screens/employee%20manger/adding_new_employee.dart';
-import 'package:graduation_project/data/Repository/get_departments_repo.dart';
-import 'package:graduation_project/data/Repository/get_shifts_repo.dart';
-import 'package:graduation_project/data/Repository/get_users_Repo.dart';
-import 'package:graduation_project/functions/drawer.dart';
-import 'package:graduation_project/functions/style.dart';
+
 import 'package:responsive_framework/responsive_value.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';

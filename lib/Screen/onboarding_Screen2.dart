@@ -133,30 +133,6 @@ class _MyWidgetState extends State<OnBoardingScreen> {
                           spacing: 5,
                         ),
                       ),
-                      // Spacer(),
-                      // FloatingActionButton(
-                      //   onPressed: () {
-                      //     if (isLast) {
-                      //       Navigator.pushAndRemoveUntil(
-                      //         context,
-                      //         MaterialPageRoute(
-                      //             builder: ((context) => EmployeeScreen())),
-                      //         (route) => false,
-                      //       );
-                      //     }
-                      //     boardController.nextPage(
-                      //       duration: Duration(
-                      //         milliseconds: 750,
-                      //       ),
-                      //       curve: Curves.fastEaseInToSlowEaseOut,
-                      //     );
-                      //   },
-                      //   child: Icon(
-                      //     Icons.arrow_forward_ios,
-                      //     color: Colors.white,
-                      //   ),
-                      //   backgroundColor: HexColor('3232A0'),
-                      // ),
                     ],
                   ),
                 ],
